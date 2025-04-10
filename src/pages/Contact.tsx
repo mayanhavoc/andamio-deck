@@ -64,7 +64,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="mx-auto max-w-2xl text-lg md:text-xl">
-            We’d love to hear from you. Whether you&apos;re an investor,
+            We&apos;d love to hear from you. Whether you&apos;re an investor,
             contributor, or partner — let&apos;s connect.
           </p>
         </motion.div>
@@ -163,7 +163,7 @@ export default function ContactPage() {
         >
           <h2 className="text-primary mb-4 text-3xl font-bold">Thank you!</h2>
           <p className="text-lg">
-            Your message has been sent. We&apos;ll get back to you as soon as
+            Your message has been sent. We&apos; ll get back to you as soon as
             possible.
           </p>
         </motion.div>
