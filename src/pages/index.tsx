@@ -31,8 +31,8 @@ export default function Home() {
         <div>
           <h2 className="mb-4 text-3xl font-bold">The Problem</h2>
           <p className="mx-auto max-w-3xl text-lg">
-            Skills are invisible. Credentials are inflated. Organizations can't
-            verify ability — and contributors can't prove it.
+            Skills are invisible. Credentials are inflated. Organizations
+            can&apos;t verify ability — and contributors can&apos;t prove it.
           </p>
         </div>
 
