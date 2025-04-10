@@ -29,11 +29,11 @@ export default function ValueAccrualChart() {
           <Tooltip />
           <Bar dataKey="value" fill="#003C54" barSize={50} />
         </BarChart>
-        <p className="mt-2 text-center text-sm text-gray-500">
-          *Approximate % of annual token supply captured through burns, staking,
-          and governance incentives.
-        </p>
       </ResponsiveContainer>
+      <p className="mt-2 text-center text-sm text-gray-500">
+        *Approximate % of annual token supply captured through burns, staking,
+        and governance incentives.
+      </p>
     </div>
   );
 }
