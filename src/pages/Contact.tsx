@@ -163,7 +163,7 @@ export default function ContactPage() {
         >
           <h2 className="text-primary mb-4 text-3xl font-bold">Thank you!</h2>
           <p className="text-lg">
-            Your message has been sent. We&apos; ll get back to you as soon as
+            Your message has been sent. We&apos;ll get back to you as soon as
             possible.
           </p>
         </motion.div>
