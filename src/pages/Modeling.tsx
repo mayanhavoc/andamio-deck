@@ -69,8 +69,8 @@ export default function Modeling() {
           Modeling & Simulations
         </h1>
         <p className="text-lg text-gray-600">
-          Explore interactive simulations of Andamio’s token economy. Understand
-          how supply, staking, and adoption interact over time.
+          Explore interactive simulations of Andamio&apos;s token economy.
+          Understand how supply, staking, and adoption interact over time.
         </p>
       </section>
 

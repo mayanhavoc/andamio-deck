@@ -26,7 +26,7 @@ export default function Charts() {
           transition={{ duration: 1, delay: 0.2 }}
           className="max-w-3xl text-lg md:text-2xl"
         >
-          Building the Republic of Verified Skills and Contributions
+          Building a Decentralized Network of Verified Skills and Contributions
         </motion.p>
         <Link
           href="/docs/Andamio_Tokenomics.pdf"
@@ -201,7 +201,7 @@ export default function Charts() {
 
         {/* Closing CTA */}
         <section className="mx-auto max-w-4xl text-center">
-          <h2 className="mb-4 text-3xl font-bold">Join the Republic of Work</h2>
+          <h2 className="mb-4 text-3xl font-bold">Join Us</h2>
           <p className="mb-6 text-lg">
             Help build the decentralized skills economy. Contribute. Verify.
             Govern.

@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import TokenSupplyChart from '@/components/TokenSupplyChart';
+import AllocationVestingChart from '@/components/AllocationVestingChart';
 import EmissionsScheduleChart from '@/components/EmissionsScheduleChart';
 import ValueAccrualChart from '@/components/ValueAccrualChart';
 import TokenUtilityFlow from '@/components/TokenUtilityFlow';
 import TokenomicsFAQ from '@/components/TokenomicsFAQ';
 import BackToTopButton from '@/components/BackToTopButton';
-import FloatingDownloadButton from '@/components/FloatingButton';
+import FloatingButton from '@/components/FloatingButton';
 import { FileText } from 'lucide-react';
 
 export default function Tokenomics() {
@@ -28,7 +29,7 @@ export default function Tokenomics() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg text-gray-600 md:text-2xl"
         >
-          Building a verified skills economy, powered by blockchain.
+          Build a Verified Skills Economy Governed by Merit, Not Wealth
         </motion.p>
       </section>
 
@@ -48,9 +49,12 @@ export default function Tokenomics() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg text-gray-700"
         >
-          $ANT tokens are the fuel of Andamio’s skills network. Contributors
-          earn tokens for verified learning and quality contributions.
-          Organizations stake tokens for priority access to top talent.
+          $ANT tokens are the fuel of Andamio&apos;s skills network. Stake ANT
+          to issue, endorse, or challenge credentials. Subject matter expert
+          contributors stake ANT to activate domain-specific voting power.
+          Contributors earn rewards for verified high-quality contributions. Use
+          ANT to vote on treasury, credential standards, and ecosystem
+          rules—stake ANT to access opportunities, dashboards, and analytics.
         </motion.p>
       </section>
 
@@ -68,6 +72,23 @@ export default function Tokenomics() {
         {/* You can insert a pie chart image here or use a component */}
         <div className="flex justify-center">
           <TokenSupplyChart />
+        </div>
+      </section>
+
+      {/* Allocation & Vesting */}
+      <section className="mx-auto max-w-5xl">
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="mb-8 text-center text-3xl font-bold md:text-4xl"
+        >
+          Allocation & Vesting
+        </motion.h2>
+
+        {/* Placeholder for emissions chart */}
+        <div className="flex justify-center">
+          <AllocationVestingChart />
         </div>
       </section>
 
@@ -132,7 +153,7 @@ export default function Tokenomics() {
         <p className="text-lg text-gray-600">
           Want to dive deeper? Read the full tokenomics modeling report.
         </p>
-        <FloatingDownloadButton
+        <FloatingButton
           href="/Charts"
           label="Read Full Report"
           download={false}
