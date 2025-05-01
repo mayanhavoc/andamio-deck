@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <section className="bg-primary flex min-h-[calc(100vh-2rem)] flex-col items-center justify-center px-8 text-center text-white">
+      <section className="flex min-h-[calc(100vh-2rem)] flex-col items-center justify-center bg-primary px-8 text-center text-white">
         <h1 className="mb-6 text-4xl font-bold md:text-6xl">Work Reimagined</h1>
         <p className="max-w-2xl text-lg md:text-2xl">
           Verified skills. Trusted contributions. Decentralized governance.
@@ -15,13 +15,13 @@ export default function Home() {
         </p>
 
         <div className="mt-8 flex gap-4">
-          <Link href="/pitch">
-            <button className="text-primary hover:bg-accent rounded-lg bg-white px-6 py-3 font-semibold shadow transition hover:text-white">
+          <Link href="/PitchDeck">
+            <button className="rounded-lg bg-white px-6 py-3 font-semibold text-primary shadow transition hover:bg-accent hover:text-white">
               View Pitch Deck
             </button>
           </Link>
-          <Link href="/tokenomics">
-            <button className="hover:text-primary rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition hover:bg-white">
+          <Link href="/Tokenomics">
+            <button className="rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition hover:bg-white hover:text-primary">
               Explore Tokenomics
             </button>
           </Link>
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
 
         <div>
-          <h2 className="text-primary mb-4 text-3xl font-bold">Our Solution</h2>
+          <h2 className="mb-4 text-3xl font-bold text-primary">Our Solution</h2>
           <p className="mx-auto max-w-3xl text-lg">
             Andamio verifies skills and contributions on-chain, unlocking a
             decentralized marketplace of trusted work, faster hiring, and fairer
@@ -68,7 +68,7 @@ export default function Home() {
             },
           ].map((step, index) => (
             <div key={index} className="flex flex-col items-center space-y-4">
-              <div className="bg-primary flex h-16 w-16 items-center justify-center rounded-full text-xl font-bold text-white">
+              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-xl font-bold text-white">
                 {index + 1}
               </div>
               <h3 className="text-xl font-semibold">{step.title}</h3>

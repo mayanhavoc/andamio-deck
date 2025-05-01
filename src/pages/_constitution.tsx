@@ -28,7 +28,7 @@ export default function ConstitutionPage() {
         transition={{ duration: 0.6 }}
         className="text-primary mb-12 mt-16 text-center text-4xl font-bold md:text-6xl"
       >
-        Constitution of the Andamio Republic
+        Andamio Network Constitution
       </motion.h1>
 
       <div className="mx-auto max-w-3xl space-y-24">
@@ -36,9 +36,9 @@ export default function ConstitutionPage() {
         <motion.section id="preamble" className="min-h-[80vh] scroll-mt-24">
           <h2 className="text-accent mb-4 text-2xl font-bold">Preamble</h2>
           <p className="leading-relaxed">
-            We, the contributors and stewards of the Andamio Republic, in
-            pursuit of a fair and verifiable knowledge economy, do hereby
-            establish this Constitution.
+            We, the contributors and stewards of the Andamio Network, in pursuit
+            of a fair and verifiable knowledge economy, do hereby establish this
+            Constitution.
             <br />
             <br />
             We commit to a republic of merit, equity, and open collaboration,
@@ -82,12 +82,10 @@ export default function ConstitutionPage() {
           <h2 className="text-accent mb-4 text-2xl font-bold">
             Article II: Citizenship and Roles
           </h2>
-          <h3 className="mb-2 text-xl font-semibold">
-            Citizens of the Republic
-          </h3>
+          <h3 className="mb-2 text-xl font-semibold">Citizens</h3>
           <p>
             All users with a verified identity and token-holding wallet are
-            Citizens of the Andamio Republic.
+            Citizens of the Andamio Network.
           </p>
 
           <h3 className="mb-2 mt-6 text-xl font-semibold">Roles</h3>
@@ -212,7 +210,7 @@ export default function ConstitutionPage() {
           </h2>
           <h3 className="mb-2 text-xl font-semibold">Treasury Sources</h3>
           <ul className="list-inside list-disc space-y-2">
-            <li>Network fees (in $AND token)</li>
+            <li>Network fees (in $ANT token)</li>
             <li>Staking rewards</li>
             <li>Grants and donations</li>
           </ul>

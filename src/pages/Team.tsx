@@ -23,9 +23,9 @@ const teamMembers = [
   },
   {
     name: 'Mix',
-    role: 'Community Manager',
+    role: 'Smart Contract Developer',
     image: '/images/mix.webp',
-    bio: 'Fosters vibrant community growth across decentralized networks.',
+    bio: "Builds scalable and secure smart contracts, enabling Andamio's credentialing and seputation systems.",
   },
   {
     name: 'Nelson',

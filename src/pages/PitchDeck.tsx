@@ -19,7 +19,7 @@ const slides = [
     title: 'The Problem',
     subtitle: 'Credentials Are Broken',
     content:
-      'Hiring is one of the biggest bottlenecks for fast-growing teams. It is slow, expenside and unpredictable.',
+      'Hiring is one of the biggest bottlenecks for fast-growing teams. It is slow, expensive and unpredictable.',
   },
   {
     title: 'The Opportunity',
@@ -29,7 +29,7 @@ const slides = [
   },
   {
     title: 'The Solution',
-    subtitle: 'Learn → Verify → Contribute → Earn → Govern',
+    subtitle: 'Learn → Verify → Contribute → Certify → Earn → Govern',
     content:
       'Andamio makes it faster, cheaper, and easier to assemble high-performing teams - turning recruitment from a bottleneck into an engine of growth.',
   },
@@ -101,10 +101,10 @@ export default function PitchDeck() {
             transition={{ duration: 0.8 }}
             className="z-10 max-w-3xl"
           >
-            <h2 className="text-primary mb-6 text-4xl font-bold md:text-5xl">
+            <h2 className="mb-6 text-4xl font-bold text-primary md:text-5xl">
               {slide.title}
             </h2>
-            <h3 className="text-accent mb-4 text-2xl font-semibold md:text-3xl">
+            <h3 className="mb-4 text-2xl font-semibold text-accent md:text-3xl">
               {slide.subtitle}
             </h3>
             <p className="text-lg text-slate-700 md:text-xl">{slide.content}</p>
